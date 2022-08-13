@@ -5,10 +5,15 @@ public class Main {
         dog.breathe();
         dog.eat();
 
-        Parrot parrot = new Parrot("Parrot");
+        Parrot parrot = new Parrot("Poppegai");
         parrot.breathe();
         parrot.eat();
         parrot.fly();
 
+        Penguin penguin = new Penguin("Mumble");
+        penguin.breathe();
+        penguin.eat();
+        penguin.fly();
+        penguin.swim();
     }
 }
