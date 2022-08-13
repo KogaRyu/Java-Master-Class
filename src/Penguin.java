@@ -5,10 +5,11 @@ public class Penguin extends Bird {
 
     @Override
     public void fly() {
-        System.out.println(getName() + " lol. FlWalks");
+        super.fly();
+        System.out.println("lol. " + getName() + " can only FlWalks");
     }
 
     public void swim() {
-        System.out.println(getName() + " very good swim-slider Mumble is :-)");
+        System.out.println(getName() + " very good SwimSlider Mumble is :-)");
     }
 }
