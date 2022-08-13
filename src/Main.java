@@ -5,8 +5,10 @@ public class Main {
         dog.breathe();
         dog.eat();
 
-        Bird bird = new Bird("Parrot");
-        bird.breathe();
-        bird.eat();
+        Parrot parrot = new Parrot("Parrot");
+        parrot.breathe();
+        parrot.eat();
+        parrot.fly();
+
     }
 }
